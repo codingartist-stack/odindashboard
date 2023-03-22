@@ -19,3 +19,20 @@
     'GRAD' 0,
     'opsz' 48
   }
+
+  .icons {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#sidebar {
+    background-color: aquamarine;
+    display: grid;
+    align-items: center;
+}
+
+ul,li {
+    display: grid;
+}
