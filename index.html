@@ -9,46 +9,52 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <header>
-        <div id="topHeader">
-            <span class="material-symbols-outlined">search</span>
-            <input type="text" id="searchBar">
-            <span class="material-symbols-outlined">notifications_active</span>
-            <img src="images/cat_Image_by_Md_Abdul_Rashid_from_Pixabay.png" alt="cat image" srcset="" class="smallProfilePic">
-            <h3>Morgan Oakley</h3>
-        </div>
-        <div id="bottomHeader">
-            <img src="images/cat_Image_by_Md_Abdul_Rashid_from_Pixabay.png" alt="cat image" srcset="" class="mainProfilePic">
-            <div id="profileGreeting">
-                <h4>Hi there,</h4>
-                <h1>Morgan Oakley (@morgan)</h1>
+    <div class="container">
+        <header>
+            <div id="topHeader">
+                <span class="material-symbols-outlined">search</span>
+                <input type="text" id="searchBar">
+                <span class="material-symbols-outlined">notifications_active</span>
+                <img src="images/cat_Image_by_Md_Abdul_Rashid_from_Pixabay.png" alt="cat image" srcset="" class="smallProfilePic">
+                <h3>Morgan Oakley</h3>
             </div>
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
+            <div id="bottomHeader">
+                <img src="images/cat_Image_by_Md_Abdul_Rashid_from_Pixabay.png" alt="cat image" srcset="" class="mainProfilePic">
+                <div id="profileGreeting">
+                    <h4>Hi there,</h4>
+                    <h1>Morgan Oakley (@morgan)</h1>
+                </div>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </header>
+        <div id="sidebar">
+            <h2><img src="images/view-dashboard.svg" alt="logo" srcset="" class="icons">Dashboard</h2>
+        
+                <div id="menu">
+                    <h3><span class="material-symbols-outlined">home</span>Home</h3>
+                    <h3><span class="material-symbols-outlined">account_box</span>Profile</h3>
+                    <h3><span class="material-symbols-outlined">chat_bubble</span>Messages</h3>
+                    <h3><span class="material-symbols-outlined">schedule</span>History</h3>
+                    <h3><span class="material-symbols-outlined">task</span>Tasks</h3>
+                    <h3><span class="material-symbols-outlined">groups</span>Communities</h3>
+                </div>
+        
+                <div id="settingMenu">
+                    <span class="material-symbols-outlined">settings</span>
+                    <span class="material-symbols-outlined">live_help</span>
+                    <span class="material-symbols-outlined">verified_user</span>
+                    <h3>Settings</h3>
+                    <h3>Support</h3>
+                    <h3>Privacy</h3>
+                </div>
+        
         </div>
-    </header>
-
-    <div id="sidebar">
-        <h2><img src="images/view-dashboard.svg" alt="logo" srcset="" class="icons">Dashboard</h2>
-        <ul>
-            <li><span class="material-symbols-outlined">home</span>Home</li>
-            <li><span class="material-symbols-outlined">account_box</span>Profile</li>
-            <li><span class="material-symbols-outlined">chat_bubble</span>Messages</li>
-            <li><span class="material-symbols-outlined">schedule</span>History</li>
-            <li><span class="material-symbols-outlined">task</span>Tasks</li>
-            <li><span class="material-symbols-outlined">groups</span>Communities</li>
-        </ul>
-        <ul>
-            <li><span class="material-symbols-outlined">settings</span>Settings</li>
-            <li><span class="material-symbols-outlined">live_help</span>Support</li>
-            <li><span class="material-symbols-outlined">verified_user</span>Privacy</li>
-        </ul>
-    </div>
-
-    <div id="main-content">
-        <div id="projects">
-            <div></div>
+        <div id="main-content">
+            <div id="projects">
+                <div></div>
+            </div>
         </div>
     </div>
 </body>

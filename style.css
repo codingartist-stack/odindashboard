@@ -27,12 +27,43 @@
     border-radius: 50%;
 }
 
-#sidebar {
-    background-color: aquamarine;
+.container {
     display: grid;
-    align-items: center;
+    gap: 4px;
+    grid-template-areas: 
+    "sidebar header"
+    "sidebar main-content";
+    grid-template-columns: 1fr 5fr;
 }
 
-ul,li {
+header {
+    grid-area: header;
+}
+
+#sidebar {
+    background-color: #3FBAC2;
     display: grid;
+    align-items: center;
+    grid-area: sidebar;
+    padding: 10px;
+    height: 100vh;
+}
+
+#menu {
+    display: grid;
+    padding: 20px;
+}
+
+h3 {
+    align-items: center;
+
+}
+
+#settingMenu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#main-content {
+    grid-area: main-content;
 }
