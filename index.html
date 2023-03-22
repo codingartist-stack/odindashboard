@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
 <body>
@@ -30,30 +33,69 @@
             </div>
         </header>
         <div id="sidebar">
-            <h2><img src="images/view-dashboard.svg" alt="logo" srcset="" class="icons">Dashboard</h2>
+            <h1 id="title"><span class="material-symbols-outlined" id="large-icon">dashboard</span>Dashboard</h1>
         
                 <div id="menu">
-                    <h3><span class="material-symbols-outlined">home</span>Home</h3>
-                    <h3><span class="material-symbols-outlined">account_box</span>Profile</h3>
-                    <h3><span class="material-symbols-outlined">chat_bubble</span>Messages</h3>
-                    <h3><span class="material-symbols-outlined">schedule</span>History</h3>
-                    <h3><span class="material-symbols-outlined">task</span>Tasks</h3>
-                    <h3><span class="material-symbols-outlined">groups</span>Communities</h3>
+                    <div><span class="material-symbols-outlined">home</span>Home</div>
+                    <div><span class="material-symbols-outlined">account_box</span>Profile</div>
+                    <div><span class="material-symbols-outlined">chat_bubble</span>Messages</div>
+                    <div><span class="material-symbols-outlined">schedule</span>History</div>
+                    <div><span class="material-symbols-outlined">task</span>Tasks</div>
+                    <div><span class="material-symbols-outlined">groups</span>Communities</div>
                 </div>
         
                 <div id="settingMenu">
-                    <span class="material-symbols-outlined">settings</span>
-                    <span class="material-symbols-outlined">live_help</span>
-                    <span class="material-symbols-outlined">verified_user</span>
-                    <h3>Settings</h3>
-                    <h3>Support</h3>
-                    <h3>Privacy</h3>
+                    <div><span class="material-symbols-outlined">settings</span>Settings</div>
+                    <div><span class="material-symbols-outlined">live_help</span>Support</div>
+                    <div><span class="material-symbols-outlined">verified_user</span>Privacy</div>
                 </div>
         
         </div>
         <div id="main-content">
             <div id="projects">
-                <div></div>
+                <h3>Your Projects</h3>
+                <div class="card_container">
+                    <div class="card">
+                        <h4>Super Cool Project</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Impossible App</h4>
+                        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Ad Blocker</h4>
+                        <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Less Cool Project</h4>
+                        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Easy Peasy App</h4>
+                        <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Money Maker</h4>
+                        <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. </p>
+                    </div>
+                </div>
+            </div>
+            <div id="Announcments">
+                <h3>Announcements</h3>
+                <div id="announcements_container">
+                    <h5>Site</h5>
+                    <p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
+                    <hr>
+                    <h5>Community Share Day</h5>
+                    <p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui.</p>
+                    <hr>
+                    <h5>Updated Privacy Policy</h5>
+                    <p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. </p>
+                </div>
+            </div>
+            <div id="trending">
+                <h3>Trending</h3>
             </div>
         </div>
     </div>
