@@ -40,7 +40,6 @@ span.large_icon {
 
 .container {
     display: grid;
-    gap: 4px;
     /* Big Shapes */
     grid-template-areas: 
     "sidebar header"
@@ -57,7 +56,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    padding: 5px;
 }
 
 .profile_pic_name {
@@ -80,6 +79,45 @@ header {
     border-radius: 10px;
     flex: 1;
     align-content: flex-start;
+}
+
+#bottomHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#profilePicGreeting {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: .75;
+}
+
+h4.greeting {
+    margin: 0;
+}
+
+h2.user_name {
+    margin: 0;
+}
+
+button {
+    background-color: #3f99c2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    min-width: 90px;
+}
+
+.header_buttons {
+    display: flex;
+    gap: 20px;
 }
 
 #sidebar {
