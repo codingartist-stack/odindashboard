@@ -70,7 +70,7 @@ header {
 .search {
     display: flex;
     align-items: center;
-    flex: 1;
+    flex: .75;
 }
 
 #searchBar {
