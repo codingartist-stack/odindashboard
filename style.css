@@ -25,7 +25,6 @@ body {
   'opsz' 24;
 
     padding: 5px;
-    padding-right: 20px;
 }
 
 
@@ -42,6 +41,7 @@ span.large_icon {
 .container {
     display: grid;
     gap: 4px;
+    /* Big Shapes */
     grid-template-areas: 
     "sidebar header"
     "sidebar main-content";
@@ -50,6 +50,19 @@ span.large_icon {
 
 header {
     grid-area: header;
+    display: grid;
+}
+
+#topHeader {
+    display: grid;
+    grid-template-columns: ;
+}
+
+#searchBar {
+    width: 25%;
+    background-color: #E2E8F0;
+    border: none;
+    border-radius: 10px;
 }
 
 #sidebar {
@@ -86,6 +99,10 @@ header {
 #menu {
     display: grid;
     margin-bottom: 50px;
+}
+
+span.menu_icons {
+    padding-right: 20px;
 }
 
 #menu div {
