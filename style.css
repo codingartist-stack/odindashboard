@@ -185,8 +185,15 @@ span.menu_icons {
     grid-template-areas: 
     "yourProjects announcements"
     "yourProjects trending";
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
 
+}
+
+.backgrcontainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #bdc5cf;
 }
 
 #projects {
@@ -202,18 +209,11 @@ span.menu_icons {
     margin-bottom: 10px;
 }
 
-#announcements_container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #bdc5cf;
-}
-
-#announcements_container h5 {
+.announcements_container h5 {
     margin: 5px;
 }
 
-#announcements_container p {
+.announcements_container p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
@@ -229,4 +229,25 @@ p {
 
 #trending {
     grid-area: trending;
+}
+
+.trending_container {
+    display: grid;
+    gap: 10px;
+}
+
+#trending h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.trendPicName {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trending_name p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
