@@ -54,15 +54,32 @@ header {
 }
 
 #topHeader {
-    display: grid;
-    grid-template-columns: ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+    padding: 15px;
+}
+
+.profile_pic_name {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    flex: 1;
 }
 
 #searchBar {
-    width: 25%;
+    height: 1.5rem;
     background-color: #E2E8F0;
     border: none;
     border-radius: 10px;
+    flex: 1;
+    align-content: flex-start;
 }
 
 #sidebar {
