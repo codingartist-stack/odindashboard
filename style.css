@@ -181,15 +181,16 @@ span.menu_icons {
     display: grid;
     gap: 30px;
     box-shadow: inset 0 5px 5px #bdc5cf;
-    padding: 10px;
+    padding: 30px;
     grid-template-areas: 
     "yourProjects announcements"
     "yourProjects trending";
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(1fr);
 
 }
 
-h4 {
+h4, h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -212,7 +213,7 @@ h4 {
 }
 
 .card {
-    box-shadow: inset .5em 0em gold;
+    box-shadow: inset .5em 0em rgb(234, 179, 41);
     display: grid;
 }
 
