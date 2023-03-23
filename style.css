@@ -213,7 +213,7 @@ h4, h3 {
 }
 
 .card {
-    box-shadow: inset .5em 0em rgb(234, 179, 41);
+    background: linear-gradient(90deg, rgb(249, 178, 14) 3%, white 3%);
     display: grid;
 }
 
